@@ -7,7 +7,8 @@ name = "imagerouter"
 version = "0.7.2"
 description = "Python module for video and image generation via ImageRouter.io unified API"
 readme = "README.md"
-license = {text = "MIT"}
+license = "MIT"
+license-files = ["LICEN[CS]E.*"]
 requires-python = ">=3.10"
 authors = [
     {name = "ImageRouter", email = "support@imagerouter.io"}
@@ -41,6 +42,7 @@ imagerouter = "imagerouter.cli:main"
 [project.urls]
 Homepage = "https://imagerouter.io"
 Documentation = "https://docs.imagerouter.io"
+Blog = "https://kamaskera.com"
 
 [tool.setuptools.packages.find]
 where = ["src"]
